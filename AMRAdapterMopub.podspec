@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterMopub'
-  s.version          = '5.18.0.1'
+  s.version          = '5.18.0.2'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
 														Admost Mediation Limited.
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'armv7 arm64 x86_64' }
   s.vendored_libraries = 'AMRAdapterMopub/Libs/libAMRAdapterMopub.a'
-  s.dependency 'AMRSDK', '~> 1.4.81'
+  s.dependency 'AMRSDK', '~> 1.5.0'
   s.dependency 'mopub-ios-sdk/Core', '5.18.0'
   s.dependency 'mopub-ios-sdk/NativeAds', '5.18.0'
 end
